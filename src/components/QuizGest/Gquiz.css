@@ -1,0 +1,118 @@
+/* General Gquiz styling */
+.gquiz {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.gquiz .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gquiz .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.gquiz img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gquiz .text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gquiz h1 {
+  font-size: 22px;
+  color: #333;
+  margin: 10px 0;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.gquiz h1:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+
+.gquiz span {
+  font-weight: 500;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+
+.gquiz span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+
+.gquiz span:nth-last-child(1) label {
+  color: #1eb2a6;
+}
+
+.gquiz p {
+  color: grey;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.gquiz .admin {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.gquiz .admin span {
+  display: flex;
+  align-items: center;
+}
+
+.gquiz .admin span i {
+  margin-right: 5px;
+  color: #1eb2a6;
+}
+
+.gquiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gquiz-options {
+  margin-top: 20px;
+}
+
+.gquiz-option {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gquiz-option.selected {
+  background-color: #1eb2a6;
+  color: white;
+}
+
+.gquiz-feedback {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+video {
+  display: none;
+}
